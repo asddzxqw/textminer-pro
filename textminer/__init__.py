@@ -7,8 +7,8 @@ from .summarizer import summarize
 from .detector import detect_language
 
 __version__ = "0.1.0"
-__author__ = "본인이름"
-__email__ = "your.email@example.com"
+__author__ = "asddzxqw"
+__email__ = "kk020929@naver.com"
 
 __all__ = [
     "remove_stopwords",
