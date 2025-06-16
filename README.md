@@ -1,5 +1,3 @@
-markdown# TextMiner Pro
-
 고급 텍스트 분석을 위한 Python 패키지입니다.
 
 ## 기능
@@ -13,9 +11,12 @@ markdown# TextMiner Pro
 
 ```bash
 pip install textminer-pro-asddzxqw
-사용법
-pythonfrom textminer import remove_stopwords, extract_keywords, summarize, detect_language
+```
 
+## 사용법
+```python
+from textminer import remove_stopwords, extract_keywords, summarize, detect_language
+```
 # 불용어 제거
 text = "This is a sample text with some common stopwords"
 clean_text = remove_stopwords(text)
@@ -53,3 +54,4 @@ python -m pytest tests/ -v
 
 # 또는 unittest로 실행
 python -m unittest discover tests/
+```
