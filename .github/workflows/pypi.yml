@@ -28,11 +28,11 @@ jobs:
     - name: Build package
       run: python -m build
       
-    - name: Publish to TestPyPI
-      env:
-        TWINE_USERNAME: __token__
-        TWINE_PASSWORD: ${{ secrets.TESTPYPI_API_TOKEN }}
-      run: twine upload --repository testpypi dist/*
+    # - name: Publish to TestPyPI
+    #   env:
+    #     TWINE_USERNAME: __token__
+    #     TWINE_PASSWORD: ${{ secrets.TESTPYPI_API_TOKEN }}
+    #   run: twine upload --repository testpypi dist/*
       
     - name: Publish to PyPI
       env:
